@@ -1,0 +1,24 @@
+{
+  "name": "brad-cli-action-test",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Brad McAlister",
+    "email": "github@sonicparke.com"
+  },
+  "product": {
+    "logo": "assets/logo.svg"
+  },
+  "vendor": {
+    "logo": "assets/logo.svg"
+  },
+  "runtime": "NODEJS_12_X",
+  "repository": "sonicparke/test-action",
+  "categories": [],
+  "actions": [
+    "src/actions/example-action/example-action.json"
+  ],
+  "connections": [
+    "src/connections/brad-cli-action-test-connection.json"
+  ]
+}

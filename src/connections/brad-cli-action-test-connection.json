@@ -1,0 +1,22 @@
+{
+  "id": "brad-cli-action-test",
+  "name": "brad-cli-action-test",
+  "description": "",
+  "handler": "../actions/brad-cli-action-test-connection-action/brad-cli-action-test-connection-action.js",
+  "input": {
+    "type": "object",
+    "required": [],
+    "properties": {}
+  },
+  "output": {
+    "type": "object",
+    "required": [],
+    "properties": {
+      "success": {
+        "title": "Success",
+        "type": "boolean",
+        "description": "Result of test."
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "example",
+  "name": "Example action",
+  "description": "A example action for you to start off with.",
+  "handler": "./example-action.js",
+  "input": {
+    "type": "object",
+    "required": [
+      "apiKey"
+    ],
+    "properties": {
+      "apiKey": {
+        "title": "API Key",
+        "type": "string",
+        "description": "Something that is needed to do something"
+      },
+      "query": {
+        "title": "Query",
+        "type": "string",
+        "description": "Something that is needed to do something"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "required": [
+      "success"
+    ],
+    "properties": {
+      "success": {
+        "title": "Success",
+        "type": "boolean",
+        "description": "Result of Example action."
+      },
+      "errors": {
+        "title": "Errors list",
+        "description": "List of errors caused during action execution.",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "message": {
+              "title": "Error Message",
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

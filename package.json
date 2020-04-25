@@ -1,0 +1,16 @@
+{
+  "name": "brad-cli-action-test",
+  "license": "Apache-2.0",
+  "description": "",
+  "repository": "sonicparke/test-action",
+  "dependencies": {},
+  "devDependencies": {
+    "jest-junit": "^10.0.0",
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:ci": "jest --ci --collectCoverage=true --runInBand --reporters=default --reporters=jest-junit --passWithNoTests"
+  },
+  "private": true
+}
